@@ -6,7 +6,7 @@ const reverseString = function(string) {
     let reverseArray = splitString.reverse();
 
     // Step Three: Use the join() mthod to join all elements of the array into a string
-    let joinArray = reverseArray.join();
+    let joinArray = reverseArray.join("");
 
     //Step Four: Return the reversed String
     return joinArray;
